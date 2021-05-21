@@ -1,0 +1,195 @@
+_________________________________________
+********** BANKERS ALGORITHM ***********
+0. Exit
+1. Accept details
+2. Display details
+3. Display safe sequence
+4. Request resources for a process
+Enter your choice: 1
+_________________________________________
+Enter number of processes: 5
+Enter number of resources: 3
+Enter the number of instances for each resource: 
+For resource 0: 10
+For resource 1: 5
+For resource 2: 7
+Enter the elements of maximum matrix: 
+For process P0: 7 5 3
+For process P1: 3 2 2
+For process P2: 9 0 2
+For process P3: 2 2 2
+For process P4: 4 3 3
+Enter the elements of allocation matrix: 
+For process P0: 0 1 0
+For process P1: 2 0 0
+For process P2: 3 0 2
+For process P3: 2 1 1
+For process P4: 0 0 2
+_________________________________________
+********** BANKERS ALGORITHM ***********
+0. Exit
+1. Accept details
+2. Display details
+3. Display safe sequence
+4. Request resources for a process
+Enter your choice: 2
+_________________________________________
+----------------------------------------------------------------------------------------------------
+        Process           Allocation              Maximum            Available                 Need 
+             P0               0 1 0                7 5 3                3 3 2                7 4 3 
+             P1               2 0 0                3 2 2                                     1 2 2 
+             P2               3 0 2                9 0 2                                     6 0 0 
+             P3               2 1 1                2 2 2                                     0 1 1 
+             P4               0 0 2                4 3 3                                     4 3 1 
+----------------------------------------------------------------------------------------------------
+_________________________________________
+********** BANKERS ALGORITHM ***********
+0. Exit
+1. Accept details
+2. Display details
+3. Display safe sequence
+4. Request resources for a process
+Enter your choice: 3
+_________________________________________
+Using the Safe State Algorithm...
+The system is in safe state.
+Safe sequence: 
+P1 -> P3 -> P0 -> P2 -> P4
+_________________________________________
+********** BANKERS ALGORITHM ***********
+0. Exit
+1. Accept details
+2. Display details
+3. Display safe sequence
+4. Request resources for a process
+Enter your choice: 4
+_________________________________________
+Using the Resource Request Allocation Algorithm...
+Enter processes number: 1
+Enter request elements: 1 0 2
+Assuming request is granted, the system state: 
+----------------------------------------------------------------------------------------------------
+        Process           Allocation              Maximum            Available                 Need 
+             P0               0 1 0                7 5 3                2 3 0                7 4 3 
+             P1               3 0 2                3 2 2                                     0 2 0 
+             P2               3 0 2                9 0 2                                     6 0 0 
+             P3               2 1 1                2 2 2                                     0 1 1 
+             P4               0 0 2                4 3 3                                     4 3 1 
+----------------------------------------------------------------------------------------------------
+Using the Safe State Algorithm...
+The system is in safe state.
+Safe sequence: 
+P1 -> P3 -> P0 -> P2 -> P4
+Request has been granted. New state of the system: 
+----------------------------------------------------------------------------------------------------
+        Process           Allocation              Maximum            Available                 Need 
+             P0               0 1 0                7 5 3                2 3 0                7 4 3 
+             P1               3 0 2                3 2 2                                     0 2 0 
+             P2               3 0 2                9 0 2                                     6 0 0 
+             P3               2 1 1                2 2 2                                     0 1 1 
+             P4               0 0 2                4 3 3                                     4 3 1 
+----------------------------------------------------------------------------------------------------
+_________________________________________
+********** BANKERS ALGORITHM ***********
+0. Exit
+1. Accept details
+2. Display details
+3. Display safe sequence
+4. Request resources for a process
+Enter your choice: 4
+_________________________________________
+Using the Resource Request Allocation Algorithm...
+Enter processes number: 1
+Enter request elements: 1 1 1
+Request by Process cannot be granted! Resources not available.
+_________________________________________
+********** BANKERS ALGORITHM ***********
+0. Exit
+1. Accept details
+2. Display details
+3. Display safe sequence
+4. Request resources for a process
+Enter your choice: 4
+_________________________________________
+Using the Resource Request Allocation Algorithm...
+Enter processes number: 1
+Enter request elements: 3 3 0
+Request by Process cannot be granted! Resources not available.
+_________________________________________
+********** BANKERS ALGORITHM ***********
+0. Exit
+1. Accept details
+2. Display details
+3. Display safe sequence
+4. Request resources for a process
+Enter your choice: 4
+_________________________________________
+Using the Resource Request Allocation Algorithm...
+Enter processes number: 2
+Enter request elements: 2 0 0
+Assuming request is granted, the system state: 
+----------------------------------------------------------------------------------------------------
+        Process           Allocation              Maximum            Available                 Need 
+             P0               0 1 0                7 5 3                0 3 0                7 4 3 
+             P1               3 0 2                3 2 2                                     0 2 0 
+             P2               5 0 2                9 0 2                                     4 0 0 
+             P3               2 1 1                2 2 2                                     0 1 1 
+             P4               0 0 2                4 3 3                                     4 3 1 
+----------------------------------------------------------------------------------------------------
+Using the Safe State Algorithm...
+The system is in safe state.
+Safe sequence: 
+P1 -> P3 -> P2 -> P0 -> P4
+Request has been granted. New state of the system: 
+----------------------------------------------------------------------------------------------------
+        Process           Allocation              Maximum            Available                 Need 
+             P0               0 1 0                7 5 3                0 3 0                7 4 3 
+             P1               3 0 2                3 2 2                                     0 2 0 
+             P2               5 0 2                9 0 2                                     4 0 0 
+             P3               2 1 1                2 2 2                                     0 1 1 
+             P4               0 0 2                4 3 3                                     4 3 1 
+----------------------------------------------------------------------------------------------------
+_________________________________________
+********** BANKERS ALGORITHM ***********
+0. Exit
+1. Accept details
+2. Display details
+3. Display safe sequence
+4. Request resources for a process
+Enter your choice: 4
+_________________________________________
+Using the Resource Request Allocation Algorithm...
+Enter processes number: 1
+Enter request elements: 0 1 0
+Assuming request is granted, the system state: 
+----------------------------------------------------------------------------------------------------
+        Process           Allocation              Maximum            Available                 Need 
+             P0               0 1 0                7 5 3                0 2 0                7 4 3 
+             P1               3 1 2                3 2 2                                     0 1 0 
+             P2               5 0 2                9 0 2                                     4 0 0 
+             P3               2 1 1                2 2 2                                     0 1 1 
+             P4               0 0 2                4 3 3                                     4 3 1 
+----------------------------------------------------------------------------------------------------
+Using the Safe State Algorithm...
+The system is in safe state.
+Safe sequence: 
+P1 -> P3 -> P2 -> P0 -> P4
+Request has been granted. New state of the system: 
+----------------------------------------------------------------------------------------------------
+        Process           Allocation              Maximum            Available                 Need 
+             P0               0 1 0                7 5 3                0 2 0                7 4 3 
+             P1               3 1 2                3 2 2                                     0 1 0 
+             P2               5 0 2                9 0 2                                     4 0 0 
+             P3               2 1 1                2 2 2                                     0 1 1 
+             P4               0 0 2                4 3 3                                     4 3 1 
+----------------------------------------------------------------------------------------------------
+_________________________________________
+********** BANKERS ALGORITHM ***********
+0. Exit
+1. Accept details
+2. Display details
+3. Display safe sequence
+4. Request resources for a process
+Enter your choice: 0
+_________________________________________
+*********** PROGRAM ENDED ************
