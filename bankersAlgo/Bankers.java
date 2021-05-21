@@ -126,7 +126,7 @@ public class Bankers {
 				if(finish[i] == false) {
 					enoughWork = true;
 				
-					//CHECK if for ith process need for all j resources <= work for all j resources
+					//CHECK if for ith process need for all resources <= work for all resources
 					for(int j=0; j<m; j++) {
 						if(!(need[i][j] <= work[j])) {
 							enoughWork = false;
