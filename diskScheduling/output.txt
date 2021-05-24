@@ -1,0 +1,142 @@
+Enter maximum number of cylinders: 200
+Enter total number of cylinders to be accessed: 5
+Enter the sequence of cylinders: 23 89 132 42 187
+Enter starting location of head: 100
+Sequence is:
+	23	89	132	42	187
+Starting location of head: 100
+Maximum number of cylinders: 200
+_________________________________
+******* DISK SCHEDULING ********
+0. Exit
+1. First Come, First Serve (FCFS)
+2. Shortest-Seek-Time-First (SSTF)
+3. SCAN
+4. Circular SCAN (CSCAN)
+Enter your choice: 1
+_________________________________
+Using First Come, First Serve (FCFS):
+
+Distance calculation: 
+|23 - 100| = 77
+|89 - 23| = 66
+|132 - 89| = 43
+|42 - 132| = 90
+|187 - 42| = 145
+
+Total distance travelled by head: 421
+_________________________________
+******* DISK SCHEDULING ********
+0. Exit
+1. First Come, First Serve (FCFS)
+2. Shortest-Seek-Time-First (SSTF)
+3. SCAN
+4. Circular SCAN (CSCAN)
+Enter your choice: 2
+_________________________________
+Using Shortest-Seek-Time-First (SSTF):
+
+Minimum distance is 11 for disk number 89
+|89 - 100| = 11
+Minimum distance is 43 for disk number 132
+|132 - 89| = 43
+Minimum distance is 55 for disk number 187
+|187 - 132| = 55
+Minimum distance is 145 for disk number 42
+|42 - 187| = 145
+Minimum distance is 19 for disk number 23
+|23 - 42| = 19
+
+Total distance travelled by head: 273
+_________________________________
+******* DISK SCHEDULING ********
+0. Exit
+1. First Come, First Serve (FCFS)
+2. Shortest-Seek-Time-First (SSTF)
+3. SCAN
+4. Circular SCAN (CSCAN)
+Enter your choice: 3
+_________________________________
+Using SCAN:
+
+Enter direction for head to move (L/R): L
+|89 - 100| = 11
+|42 - 89| = 47
+|23 - 42| = 19
+|0 - 23| = 23
+|132 - 0| = 132
+|187 - 132| = 55
+
+Total distance travelled by head: 287
+_________________________________
+******* DISK SCHEDULING ********
+0. Exit
+1. First Come, First Serve (FCFS)
+2. Shortest-Seek-Time-First (SSTF)
+3. SCAN
+4. Circular SCAN (CSCAN)
+Enter your choice: 3
+_________________________________
+Using SCAN:
+
+Enter direction for head to move (L/R): R
+|132 - 100| = 32
+|187 - 132| = 55
+|199 - 187| = 12
+|89 - 199| = 110
+|42 - 89| = 47
+|23 - 42| = 19
+
+Total distance travelled by head: 275
+_________________________________
+******* DISK SCHEDULING ********
+0. Exit
+1. First Come, First Serve (FCFS)
+2. Shortest-Seek-Time-First (SSTF)
+3. SCAN
+4. Circular SCAN (CSCAN)
+Enter your choice: 4
+_________________________________
+Using Circular SCAN (CSCAN):
+
+Enter direction for head to move (L/R): L
+|89 - 100| = 11
+|42 - 89| = 47
+|23 - 42| = 19
+|0 - 23| = 23
+|199 - 0| = 199
+|187 - 199| = 12
+|132 - 187| = 55
+
+Total distance travelled by head: 366- 199 = 167
+_________________________________
+******* DISK SCHEDULING ********
+0. Exit
+1. First Come, First Serve (FCFS)
+2. Shortest-Seek-Time-First (SSTF)
+3. SCAN
+4. Circular SCAN (CSCAN)
+Enter your choice: 4
+_________________________________
+Using Circular SCAN (CSCAN):
+
+Enter direction for head to move (L/R): R
+|132 - 100| = 32
+|187 - 132| = 55
+|199 - 187| = 12
+|0 - 199| = 199
+|23 - 0| = 23
+|42 - 23| = 19
+|89 - 42| = 47
+
+Total distance travelled by head: 387- 199 = 188
+_________________________________
+******* DISK SCHEDULING ********
+0. Exit
+1. First Come, First Serve (FCFS)
+2. Shortest-Seek-Time-First (SSTF)
+3. SCAN
+4. Circular SCAN (CSCAN)
+Enter your choice: 0
+_________________________________
+********** PROGRAM END ***********
