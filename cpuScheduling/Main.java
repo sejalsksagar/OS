@@ -1,3 +1,10 @@
+/**
+ *  OS Lab #4 26/05/21
+ *  2372 SEJAL KSHIRSAGAR
+ *  Title: Write a Java program to implement following scheduling algorithms First
+	Come First Serve (FCFS)(Non-Pre-emptive), Shortest Remaining Time First
+	(SRTF) (Pre-emptive).
+ */
 package cpuScheduling;
 
 import java.util.Scanner;
