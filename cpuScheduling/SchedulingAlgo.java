@@ -81,7 +81,6 @@ public class SchedulingAlgo {
 		for(int i=0; i<n; i++) {
 			TmpProcess tmp = new TmpProcess();
 			tmp.p = P.get(i);
-			tmp.tmpAT = P.get(i).AT;
 			tmp.tmpBT = P.get(i).BT;
 			TP[i] = tmp;
 		}
