@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 class TmpProcess{
 	Process p;
-	int tmpAT;
 	int tmpBT;
 }
 
