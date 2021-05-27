@@ -1,0 +1,65 @@
+Enter no. of memory blocks available: 5
+Enter the block id: 1
+Enter the size of memory block 1 in KB: 100
+Enter the block id: 2
+Enter the size of memory block 2 in KB: 500
+Enter the block id: 3
+Enter the size of memory block 3 in KB: 200
+Enter the block id: 4
+Enter the size of memory block 4 in KB: 300
+Enter the block id: 5
+Enter the size of memory block 5 in KB: 600
+Enter no. of processes available: 4
+Enter the process id: 1
+Enter the size of process 1 in KB: 212
+Enter the process id: 2
+Enter the size of process 2 in KB: 417
+Enter the process id: 3
+Enter the size of process 3 in KB: 112
+Enter the process id: 4
+Enter the size of process 4 in KB: 426
+____________________________________________
+****** MEMORY ALLOCATION STRATEGIES ******
+0. Exit
+1. First Fit
+2. Best Fit
+3. Worst Fit
+Enter your choice: 1
+____________________________________________
+Process 1 of size 212 is allocated to memory block 2 of size 500 KB
+Process 2 of size 417 is allocated to memory block 5 of size 600 KB
+Process 3 of size 112 is allocated to memory block 3 of size 200 KB
+Process 4 is not allocated to any memory block
+____________________________________________
+****** MEMORY ALLOCATION STRATEGIES ******
+0. Exit
+1. First Fit
+2. Best Fit
+3. Worst Fit
+Enter your choice: 2
+____________________________________________
+Process 1 of size 212 is allocated to memory block 4 of size 300 KB
+Process 2 of size 417 is allocated to memory block 2 of size 500 KB
+Process 3 of size 112 is allocated to memory block 3 of size 200 KB
+Process 4 of size 426 is allocated to memory block 5 of size 600 KB
+____________________________________________
+****** MEMORY ALLOCATION STRATEGIES ******
+0. Exit
+1. First Fit
+2. Best Fit
+3. Worst Fit
+Enter your choice: 3
+____________________________________________
+Process 1 of size 212 is allocated to memory block 5 of size 600 KB
+Process 2 of size 417 is allocated to memory block 2 of size 500 KB
+Process 3 of size 112 is allocated to memory block 4 of size 300 KB
+Process 4 is not allocated to any memory block
+____________________________________________
+****** MEMORY ALLOCATION STRATEGIES ******
+0. Exit
+1. First Fit
+2. Best Fit
+3. Worst Fit
+Enter your choice: 0
+____________________________________________
+*********** EXECUTION COMPLETED *************
