@@ -1,3 +1,10 @@
+/*
+OS LAB #8 01/06/2021
+2372 SEJAL KSHIRSAGAR
+Title: Write a Java program to implement following page replacement algorithms:
+First In First Out (FIFO) and Least Recently Used (LRU)
+*/
+
 package pageReplacementAlgo;
 
 
