@@ -1,0 +1,33 @@
+Enter the number of frames: 3
+Enter the number of pages in the reference string: 12
+Enter the reference string: 144 11 144 236 144 168 144 11 179 11 12 263
+******* PAGE REPLACEMENT ALGORITHMS ******
+0. Exit
+1. FIFO
+2. LRU
+Enter your choice: 1
+Reference string: 144 11 144 236 144 168 144 11 179 11 12 263 
+
+P0	144	144	144	144	144	168	168	168	179	179	179	179	
+P1	-	11	11	11	11	11	144	144	144	144	12	12	
+P2	-	-	-	236	236	236	236	11	11	11	11	263	
+PF	1	2	2	3	3	4	5	6	7	7	8	9	
+
+******* PAGE REPLACEMENT ALGORITHMS ******
+0. Exit
+1. FIFO
+2. LRU
+Enter your choice: 2
+Reference string: 144 11 144 236 144 168 144 11 179 11 12 263 
+
+P0	144	144	144	144	144	144	144	144	144	144	12	12	
+P1	-	11	11	11	11	168	168	168	179	179	179	263	
+P2	-	-	-	236	236	236	236	11	11	11	11	11	
+PF	1	2	2	3	3	4	4	5	6	6	7	8	
+
+******* PAGE REPLACEMENT ALGORITHMS ******
+0. Exit
+1. FIFO
+2. LRU
+Enter your choice: 0
+********** PROGRAM END *************
