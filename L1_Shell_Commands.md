@@ -12,7 +12,7 @@ OS Lab #1 20/05/21
 | 6.     | cat            | to concatenate two files (syntax: cat file1 >> file2)  <br>o/p in file2   |
 | 7.     | cp             | to copy contents of one file in another (syntax: cp file1 file2) <br>creates file2 if not present    |
 | 8.     | mv             | to rename/move file1 to file2 (syntax: mv file1 file2) <br>creates file2 if not present       |
-| 9.     | rm             | to remove/delete a file (syntax: mv file1 file2)             |
+| 9.     | rm             | to remove/delete a file              |
 | 10.    | touch          | to update timestamp of file to current time (syntax: touch file_name) <br>creates new file if not present |
 | 11.    | chmod <br>(CHange MODe)| Used to change access modes of file (syntax: chmod permission-bits file_name) <br>for this command, you need to become super-user  |
 
